@@ -1,0 +1,11 @@
+function U = descente(P,C,g,alpha,beta,epsilon,max)
+N=size(P,1);
+U=zeros(N,1);
+%initialisation
+for i=D
+    U(i)=g(P(i,1),P(i,2))
+end
+for k=1:maxIter
+    [J,gardJ]=calcul_JN_gradJN(U,P,C,D,alpha,beta)
+end
+
